@@ -1,33 +1,7 @@
-# React starter with Webpack
+# Farmer's Market Circuit
 
-- install npm
-- Bundle new code with `$ webpack`
-- Then run `npm run start`. This also runs `webpack-dev-server` to compile the project, and launches development server.
-- `localhost:8080` connects to the necessary endpoint
+Avery's Organics is a mid-sized farm in Northern Oregon that grows organic produce, and sells it at Farmer's Markets throughout town. Since they're at a different market almost every day they thought it would be helpful to start a website so customers can see which location they'll be at when.
 
-## Use ESLint
-1. Run the following command:
-```
-npm install eslint@4.13.1 -g
-npm install eslint@4.13.1 --save-dev
-```
+They also grow different crops in different seasons. They'd like to display what produce is available during which months on their site too.
 
-2. Then run this command in the top level of project directory:
-```
-eslint --init
-```
-
-3. Answer the questions then it automate `.eslintrc.json` file based on the answers.
-
-### ESLint Rules in `.eslintrc.json`: 
-- `0` - off
-- `1` - warn
-- `2` - error
-
-_ESLint for indentation is removed from this template_
-
-- Run `npm run lint` to check the project's lint
-- Run `npm run lint --fix` to check and fix the project's lint
-
-
-
+Using React and all other tools we've covered so far, create an aesthetically-pleasing site that depicts this information. The data you'll use is in the Cheat Sheet section of this lesson. Also, take time to construct your entire environment from scratch; it's important to practice these fundamentals before we increase the complexity of our projects later this week!

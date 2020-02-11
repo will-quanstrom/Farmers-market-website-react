@@ -1,8 +1,14 @@
 {
-  "name": "react-starter",
+  "name": "Farmers-Market",
   "version": "1.0.0",
-  "description": "React starter with Webpack with Babel",
-  "main": "webpack.config.js",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "lint": "eslint src/** src/**/**; exit 0",
+    "lint-fix": "eslint src/** src/**/** --fix; exit 0"
+  },
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -25,20 +31,14 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "lint": "eslint src/** src/**/**; exit 0",
-    "lint-fix": "eslint src/** src/**/** --fix; exit 0"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/misakimichy/react-starter.git"
+    "url": "git+https://github.com/misakimichy/farmers-market.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/misakimichy/react-starter/issues"
+    "url": "https://github.com/misakimichy/farmers-market/issues"
   },
-  "homepage": "https://github.com/misakimichy/react-starter#readme"
+  "homepage": "https://github.com/misakimichy/farmers-market#readme"
 }
