@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function Nav(){
         const padNav = {
@@ -24,4 +24,4 @@ function Nav(){
         );
 }
 
-export default Nav;
+export default Nav
