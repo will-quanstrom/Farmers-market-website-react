@@ -1,18 +1,17 @@
 import React from 'react'
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 const MonthlyProduct = props => {
-    const asideStyle = {
-        padding: '10px'
-    }
     return (
         <div>
-            <h5 style={asideStyle}>{props.month}</h5>
-            <ul>
-                {props.selection.map((item, index) =>
-                    <li key={index}>{item}</li>    
-                )}
-            </ul>
+            <h5 className="modal-card"><a href='#'>{props.month}</a></h5>
+            <div className="modal-container">
+                <ul className="list-container">
+                    {props.selection.map((item, index) =>
+                        <li key={index} className="item-list">{item}</li>    
+                    )}
+                </ul>
+            </div>
         </div>
     )
 }
