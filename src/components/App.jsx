@@ -8,8 +8,10 @@ function App(){
     return (
         <div>
             <Nav />
-            <SeasonSideBar />
-            <MainSchedule />
+            <div class="two-columns">
+                <SeasonSideBar />
+                <MainSchedule />
+            </div>
         </div>
     );
 }
