@@ -1,5 +1,5 @@
 import React from 'react';
-import Proptyes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Schedule = props => {
     return(
@@ -14,11 +14,11 @@ const Schedule = props => {
     )
 }
 
-Schedule.PropTypes = {
+Schedule.propTypes = {
     day: PropTypes.string,
-    location: Proptyes.string,
-    hours: Proptyes.string,
-    booth: Proptyes.string
+    location: PropTypes.string,
+    hours: PropTypes.string,
+    booth: PropTypes.string
 }
 
 export default Schedule;
